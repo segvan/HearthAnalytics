@@ -18,6 +18,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HearthAnalytics.Infrastruct
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HearthAnalytics.API", "src\HearthAnalytics.API\HearthAnalytics.API.xproj", "{1A0F100D-BF81-4B61-A5D5-A96186287F72}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HearthAnalytics.WebSpa", "src\HearthAnalytics.WebSpa\HearthAnalytics.WebSpa.xproj", "{AA0978C0-824E-4CE4-AAA4-0C3532141010}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{1A0F100D-BF81-4B61-A5D5-A96186287F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A0F100D-BF81-4B61-A5D5-A96186287F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A0F100D-BF81-4B61-A5D5-A96186287F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0978C0-824E-4CE4-AAA4-0C3532141010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0978C0-824E-4CE4-AAA4-0C3532141010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0978C0-824E-4CE4-AAA4-0C3532141010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0978C0-824E-4CE4-AAA4-0C3532141010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +55,6 @@ Global
 		{AF80CBBD-F5CC-4BE2-9490-2F2CAA72E52F} = {DDA7B11D-295E-4C9B-B6AE-3736CACF684D}
 		{5E0A1E0C-49E7-4813-BB22-D87857F36EE6} = {DDA7B11D-295E-4C9B-B6AE-3736CACF684D}
 		{1A0F100D-BF81-4B61-A5D5-A96186287F72} = {DDA7B11D-295E-4C9B-B6AE-3736CACF684D}
+		{AA0978C0-824E-4CE4-AAA4-0C3532141010} = {DDA7B11D-295E-4C9B-B6AE-3736CACF684D}
 	EndGlobalSection
 EndGlobal
