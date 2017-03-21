@@ -1,2 +1,2 @@
-# HearthAnalytics
-HearthAnalytics is an application that helps me track my statistics while playing HearthStone game.
+# HearthAnalytics API
+HearthAnalytics API is a backend for the HearthAnalytics application.
