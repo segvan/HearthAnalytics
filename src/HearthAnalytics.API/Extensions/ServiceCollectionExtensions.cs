@@ -10,7 +10,7 @@ namespace HearthAnalytics.API.Extensions
 {
     public static class ServiceCollectionExtensions
     {
-        public static void AddHearthAnalytics(this IServiceCollection services, IConfigurationRoot configuration)
+        public static void AddHearthAnalytics(this IServiceCollection services, IConfiguration configuration)
         {
             // DI
             services.AddScoped<IArchyTypesRepository, ArchyTypesRepository>();

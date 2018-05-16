@@ -1,10 +1,10 @@
 ﻿using HearthAnalytics.Infrastructure;
 using HearthAnalytics.Model;
 using HearthAnalytics.Model.Constants;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Microsoft.EntityFrameworkCore.Metadata;
 using System;
 using System.Linq;
 
@@ -34,14 +34,16 @@ namespace HearthAnalytics.Repositories.EF
             return base.SaveChanges();
         }
 
-        private void HasOwner()
+        private async void HasOwner()
         {
+            var adminUser = await this.Users.FirstOrDefaultAsync(x => x.Email == "admin@microsoft.com");
+
             var items = ChangeTracker.Entries().Where(e => (e.State == EntityState.Added) && e.Entity is IHasOwner<Guid>);
 
             foreach (EntityEntry item in items)
             {
                 var addedItem = item.Entity as IHasOwner<Guid>;
-                addedItem.OwnerUserId = Constants.DefaultUserId;
+                addedItem.OwnerUserId = adminUser.Id;
             }
         }
 

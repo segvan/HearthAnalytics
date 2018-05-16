@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:63392/",
+      "applicationUrl": "http://localhost:24509/",
       "sslPort": 0
     }
   },
@@ -18,12 +18,12 @@
     },
     "HearthAnalytics.API": {
       "commandName": "Project",
-      "commandLineArgs": "--server.urls=http://*:5000/",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/swagger/ui",
+      "launchUrl": "http://localhost:24510/swagger/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:24510/"
     }
   }
 }
