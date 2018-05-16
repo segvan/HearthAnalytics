@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthAnalytics.API", "HearthAnalytics.API\HearthAnalytics.API.csproj", "{2DE9283E-F871-4519-B937-97CA773A5892}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthAnalytics.API", "src\HearthAnalytics.API\HearthAnalytics.API.csproj", "{2DE9283E-F871-4519-B937-97CA773A5892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthAnalytics.Infrastructure", "HearthAnalytics.Infrastructure\HearthAnalytics.Infrastructure.csproj", "{870CA52E-325F-49F5-A3F5-067B8BE49172}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthAnalytics.Infrastructure", "src\HearthAnalytics.Infrastructure\HearthAnalytics.Infrastructure.csproj", "{870CA52E-325F-49F5-A3F5-067B8BE49172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthAnalytics.Model", "HearthAnalytics.Model\HearthAnalytics.Model.csproj", "{DFCE6E33-DC0E-422B-9344-9A27CED23CDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthAnalytics.Model", "src\HearthAnalytics.Model\HearthAnalytics.Model.csproj", "{DFCE6E33-DC0E-422B-9344-9A27CED23CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthAnalytics.Repositories.EF", "HearthAnalytics.Repositories.EF\HearthAnalytics.Repositories.EF.csproj", "{12600232-2CB3-4EB5-B98E-184EDE194CC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthAnalytics.Repositories.EF", "src\HearthAnalytics.Repositories.EF\HearthAnalytics.Repositories.EF.csproj", "{12600232-2CB3-4EB5-B98E-184EDE194CC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
